@@ -1,0 +1,63 @@
+body{
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: skyblue;
+     background-image: linear-gradient(120deg, darkblue,#3384ee90,white, rgb(230, 230, 110), #000);
+    /* height: 100vh; */
+}
+h1{
+    text-align: center;
+    margin-right: 100px;
+    font: 8em sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-thickness: 6%;
+    text-shadow: 5px 5px 7px #fff;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+ul li button{
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+ul li:nth-child(odd) button{
+    background: linear-gradient(to right, blue, rgb(144, 136, 135));
+    text-align: left;
+    padding-left: 10%;
+    transform: perspective(500px) rotateY(45deg);
+}
+ul li:nth-child(even) button{
+    background: linear-gradient(to left, blue, rgb(144, 136, 135));
+    text-align: right;
+    padding-right: 10%;
+    transform: perspective(500px) rotateY(-45deg);
+}
+ul li:nth-child(odd):hover{
+    transform: perspective(210px) rotateY(45deg);
+    padding-left: 5%;
+}
+ul li:nth-child(even):hover{
+    transform: perspective(210px) rotateY(-45deg);
+    padding-right: 5%;
+}
+img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}

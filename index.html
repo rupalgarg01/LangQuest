@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+p{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Sofia", sans-serif;
+    /* text-decoration: underline; */
+    font-weight: 1000;
+    text-shadow: 5px 5px 7px #fff;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    padding: 10px;
+}
+.contact{
+    overflow: hidden;
+    margin-bottom: 100px;
+    background-color: #a1c2f5;
+}
+.contact-info h2{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-left: 50px;
+}
+form input,form textarea{
+    display: block;
+    width: 100%;
+    outline: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    margin-left: 50px;
+}
+form input:focus,form textarea:focus{
+    border-color:  black;
+}
+form button{
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    font-size: 23px;
+    letter-spacing: -0.5px;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-left: 50px;
+}
+form button:hover{
+    background-color: red;
+}
+.contcat-map h2{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+}
+.contcat-map p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.contcat-map h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;}
+.contcat-map p i{
+    color: red;
+}
+iframe{
+    width: 431px;
+    height: 351px;
+}
+    @media (min-width: 994px) {
+        /* For mobile phones: */
+        .addtion-r::after{
+            content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 93%;
+        background-color: #131212;
+            
+        }
+    }
+</style>
+<body>
+    <section>
+        <div class="bg">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <main>
+            <nav>
+                <div class="logoBx">
+                    <!-- <img src="transparent background.png" alt="logo"> -->
+                    <p>LangQuest</p>
+                </div>
+                <div class="menu" style="justify-content: flex-end; align-items: flex-start-center;">
+                    <ul>
+                        <li>
+                            <a href="#Home"><button>Home</button></a>
+                        </li>
+                        <li>
+                            <a href="rsources_page.html"><button>Resources</button></a>
+                        </li>                          
+                        <li>
+                            <a href="http://127.0.0.1:5000/"><button>Signin/Login</button></a>
+                        </li>
+                        <li>
+                            <a href="#contact"><button>Contact Us</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <section>
+            <div class="content">
+                <div class="text">
+                    <h2>LangQuest<br><span>at your home</span></h2>
+                    <div class="btnBx">
+                        <button id="chooseLanguagesBtn">Choose Languages</button>   
+                    </div>
+                </div>
+                <div class="imgBx">
+                    <div class="img">
+                        <img src="images/image4.png" alt="img">
+                    </div>
+                    <div class="rec">
+                        <span style="--clr:#6060d8; --widHei:15px"></span>
+                        <span style="--clr:#8f94ef; --widHei:10px"></span>
+                        <span style="--clr:#8f94ef; --widHei:10px"></span>
+                        <span style="--clr:#8f94ef; --widHei:10px"></span>
+                    </div>
+                    <div class="chatBx">
+                        <a href="#"><i class="fa-regular fa-comment-dots"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="triangle">
+                <span>
+                    <svg width="250" height="250" viewBox="-50 -50 300 300">
+                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
+                    </svg>
+                </span>
+                <span>
+                    <svg width="250" height="250" viewBox="-50 -50 300 300">
+                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
+                    </svg>
+                </span>
+                <span>
+                    <svg width="250" height="250" viewBox="-50 -50 300 300">
+                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
+                    </svg>
+                </span>
+                <span>
+                    <svg width="250" height="250" viewBox="-50 -50 300 300">
+                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
+                    </svg>
+                </span>
+                <span>
+                    <svg width="250" height="250" viewBox="-50 -50 300 300">
+                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
+                    </svg>
+                </span>
+            </div>
+        </main>
+    </section>
+    <br>
+    <div id="home_elems" class="fondhome" style="background-color: #6060d8;" >
+        <br>
+        <div class="yu" style="align-items: center ;"></div>
+        <div class="P1" id="P1" style="justify-content: center;">Popular languages</div>
+        <div class="bt" style="display: flex; margin-left: 400px;">
+        <p class="home_link">
+            <a href="english_data.html" class="liste_langues"><span class="phoca-flagbox"> 
+            <button><img src="images/uni.jpg" width="45"></button></span>
+            <span class="link_flag">Learn English  </span></a></p>
+            
+        <p class="home_link">
+            <a href="french_data.html" class="liste_langues"><span class="phoca-flagbox">
+            <button><img src="images/france.png" width="45"></button></span>
+            <span class="link_flag">Learn French</span></a></p>
+
+        <p class="home_link">
+            <a href="german_data.html" class="liste_langues"><span class="phoca-flagbox">
+            <button><img src="images/german.png" width="45"></button></span>
+            <span class="link_flag">Learn German</span></a></p></div>
+            <div class="cn" style="display: flex; margin-left: 530px;">
+
+        <p class="home_link">
+            <a href="korean_data.html" class="liste_langues"><span class="phoca-flagbox">
+            <button><img src="images/korean.png" width="45"></button></span>
+            <span class="link_flag">Learn Korean</span></a></p>
+
+        <p class="home_link">
+            <a href="hindi_data.html" class="liste_langues"><span class="phoca-flagbox">
+            <button><img src="images/hindi flag.png" width="45"></button></span>
+            <span class="link_flag">Learn Hindi</span></a></p></div></div>
+            <br>
+      <br>
+      <div class="fondbase1 blue1blue2" style="background-color: #20324c;">
+        <div class="fondtransparent margin16"><div id="Quick overview"></div>
+        <div class="fondhome">
+        <div class="cadre_N1" style="background-color: aliceblue; align-items: center;">
+        <div class="P2">
+        <div class="width90cent">
+        <h2 class="p3" style="margin-left: 700px; color: white;
+        background: #1a024847;
+        margin : 500px;
+        margin-bottom: 50px;
+        margin-top: auto;
+        box-shadow: #03031f4d 0px 5px 15px;
+        max-width: 500px;
+        font-weight: 600;
+        height: 80px;
+        font-size: 30px; display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+" >Contact Us</h2>
+       <!-- </div>
+        </div>
+        <div class="marges">
+        <div class="contenu_texte">
+        <div id="pres">
+        <div class="textes">
+        </div>
+        <img src=".vscode\0_9rL7NavlMFXeLEyZ.webp" style="height: 150px; width: 150px; margin-left: 690px; margin-top: 50px; margin-bottom: 50px;">  
+      <br>
+      <br>
+      <br>-->
+      <div class="contact" id="contact">
+        <div class="container">
+          <div class="row" style="display: flex;">
+               <div class="ml-auto col-lg-5 col-md-6 col-12 contact-info" style="margin: left 20px;;">
+                   <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Feel free to ask anything</h2>
+                   <br>
+                   <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
+                       <input type="text" class="" name="cf-name" placeholder="Name">
+                       <input type="email" class="" name="cf-email" placeholder="Email">
+                       <textarea class="" rows="5" name="cf-message" placeholder="Message"></textarea>
+                       <button type="submit" class="" id="submit-button" name="submit">Send Message</button>
+                   </form>
+               </div>
+      
+               <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12 contcat-map" style="margin: auto;">
+                   <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us</span></h2>
+                   <p data-aos="fade-up" data-aos-delay="800"> contact-number: 8168050522, <br>7078921681, <br>9343949130 </p>
+                   <h5 data-aos="fade-up" data-aos-delay="800">Email: rupalgarg@gmail.com,<br> sanyagupta@gmail.com,<br> pragyasingh208@gmail.com</h5>
+                   <br>
+               </div>
+          </div>
+      </div>
+      </div>
+   </body>
+   <script>
+    // JavaScript code to handle scrolling functionality
+    document.getElementById('chooseLanguagesBtn').addEventListener('click', function() {
+        // Scroll to the popular languages section
+        document.getElementById('home_elems').scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+</body>
+</html>
+
