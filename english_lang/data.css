@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, blue, white, red);
+}
+
+header{
+    background-color: #050754;
+    color: rgb(169, 169, 223);
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 2em;
+}
+
+nav{
+    background-color: #050754;
+    color: rgb(169, 169, 223);
+    padding: 10px;
+    display: flex;
+    justify-content: first baseline;
+    border-bottom: 3px solid rgb(80, 81, 92);
+}
+
+nav a{
+    color: rgb(169, 169, 245);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgb(169, 169, 245);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  or any other desired height */
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+
+h2{
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* or any other desired height */
+/*}*/
+
+.cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.eng{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eng img{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* .eng video{
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} */
+.btn{
+    margin: 24px;
+    width: auto;
+}
+.btn1 {
+    padding: 12px 25px;
+    background-color: rgb(188, 188, 249); 
+    color: black; 
+    border: 2px solid rgb(83, 83, 235);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 40px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: rgb(83, 83, 235);
+    color: white;
+}
+footer{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
